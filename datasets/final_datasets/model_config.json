@@ -1,0 +1,43 @@
+{
+  "model_type": "CRF",
+  "features": [
+    "font_size",
+    "is_bold",
+    "is_italic",
+    "rel_y",
+    "length",
+    "num_words",
+    "x",
+    "color",
+    "text_length",
+    "starts_with_number",
+    "ends_with_colon",
+    "all_caps",
+    "title_case",
+    "has_numbers",
+    "has_special_chars",
+    "font_size_large",
+    "font_size_medium",
+    "font_size_small",
+    "position_top",
+    "position_middle",
+    "position_bottom",
+    "short_text",
+    "medium_text",
+    "long_text",
+    "single_word",
+    "few_words",
+    "many_words"
+  ],
+  "heading_levels": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "not_heading"
+  ],
+  "version": "1.0",
+  "description": "CRF model for PDF heading detection with enhanced features"
+}
